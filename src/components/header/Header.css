@@ -1,0 +1,54 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100;0,200;1,300&family=Sigmar&display=swap');
+
+
+.header {
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerLeft,
+.headerRight {
+    display: flex;
+    align-items: center;
+
+}
+
+.header__icon {
+    border: 2px solid red;
+
+}
+
+a>span {
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+a>span:hover {
+    color: red;
+}
+
+.header__icon {
+    width: 80px;
+    cursor: pointer;
+}
+
+.user__avatar {
+    font-size: 2rem;
+}
+
+.logo {
+    text-decoration: none;
+    color: crimson;
+    font-size: large;
+    background-color: yellow;
+    border: 2px solid yellow;
+    border-radius: 8px;
+    padding: 5px 6px;
+    font-family: 'Sigmar', cursive;
+}
